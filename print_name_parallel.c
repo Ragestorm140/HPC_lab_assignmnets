@@ -9,7 +9,7 @@ int main() {
     #pragma omp parallel
     {
         // Each thread prints your name
-        printf("Hello, my name is Sourav! Printed by thread %d\n", omp_get_thread_num());
+        printf("Hello, my name is Om! Printed by thread %d\n", omp_get_thread_num());
     }
 
     return 0;
